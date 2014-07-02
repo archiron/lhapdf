@@ -1,10 +1,10 @@
 ACLOCAL_AMFLAGS = -I m4
 
-SUBDIRS = src include ccwrap lib examples pyext 
+SUBDIRS = src include ccwrap lib pyext 
 if WITH_OCTAVE
 SUBDIRS += octave
 endif
-SUBDIRS += bin tests
+SUBDIRS += bin
 
 dist_pkgdata_DATA = PDFsets.index
 

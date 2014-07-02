@@ -327,11 +327,9 @@ AC_CONFIG_FILES([src/Makefile src/parmsetup.inc])
 AC_CONFIG_FILES([include/Makefile include/LHAPDF/Makefile])
 AC_CONFIG_FILES([ccwrap/Makefile])
 AC_CONFIG_FILES([lib/Makefile])
-AC_CONFIG_FILES([examples/Makefile])
 AC_CONFIG_FILES([pyext/Makefile pyext/setup.py])
 AC_CONFIG_FILES([octave/Makefile])
 AC_CONFIG_FILES([bin/Makefile bin/lhapdf-config])
-AC_CONFIG_FILES([tests/Makefile])
 AC_OUTPUT
 
 ## Message about getting PDF sets
